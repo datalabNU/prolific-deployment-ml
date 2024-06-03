@@ -9,7 +9,7 @@ instructions: |
   Each will be labeled "Output A", "Output B", and "Output C". We want to evaluate which model-generated output is the best.
   The criteria to rank these outputs upon are as follows:
 
-  1. Agrement with the reference conclusion (whether there is enough evidence, not enough evidence, etc.)
+  1. Agreement with the reference conclusion (whether there is enough evidence, not enough evidence, etc.)
   2. Whether the output is fluent and sensible
   3. Whether there is irrelevant information that detracts from the conclusion  
    
@@ -50,7 +50,7 @@ edits:
             label: "3"
 
   - name: output_ranking_b
-    label: "Output b"
+    label: "Output B"
     enable_output: false
     color: blue
     icon: fa-plus
@@ -86,3 +86,12 @@ edits:
 disable:
   - download
   - upload
+
+crowdsource: "prolific"       # Use "prolific" or other crowdsource options here, "custom" for your own database setup
+database: 
+    type: firebase
+    project_id: granularity-preference-ranking
+    url: https://granularity-preference-ranking.firebaseio.com/
+    collection: thresh     # (default: thresh) The database to use, this must exist on the firestore
+    document: annotation   # (default: annotation) The document to use, this must exist on the firestore
+    field: annotation_set_1  # The document field to store annotations, we recommend changing this value between data collection runs
