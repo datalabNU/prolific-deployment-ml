@@ -88,8 +88,8 @@ disable:
   - upload
 
 crowdsource: "prolific"       # Use "prolific" or other crowdsource options here, "custom" for your own database setup
-prolific_completion_code: C15AS12
-completion_code: C15AS12
+prolific_completion_code: CPXHULRJ
+completion_code: CPXHULRJ
 database:
     type: firebase
     project_id: granularity-preference-ranking
