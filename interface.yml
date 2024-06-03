@@ -91,7 +91,7 @@ crowdsource: "prolific"       # Use "prolific" or other crowdsource options here
 database: 
     type: firebase
     project_id: granularity-preference-ranking
-    url: https://granularity-preference-ranking-default-rtdb.firebaseio.com/
+    url: https://granularity-preference-ranking.firebaseio.com/
     prolific_completion_code: C15AS12
     completion_code: C15AS12
     collection: thresh     # (default: thresh) The database to use, this must exist on the firestore
