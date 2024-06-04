@@ -1,7 +1,7 @@
 template_name: PreferenceRankingRCT
 template_label: PreferenceRankingRCT
 template_description: Ranking RCTs
-prepend_instructions: true
+prepend_instructions: false
 instructions: |
   ## Instructions
 
