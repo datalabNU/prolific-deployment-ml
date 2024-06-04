@@ -14,6 +14,7 @@ instructions: |
   3. Whether there is irrelevant information that detracts from the conclusion  
    
   Rank the three targets by selecting their rank accordingly. Ranking is ordered 1 for the best output and 3 for the worst output.
+  However, if some outputs are about the same, feel free to rank them the same. For instance: A = 1, B = 2, and C = 2.
 
   #### Workflow
   Click "Add Edit" > Hit "Output A", "Output B", or "Output C". > Click "Save".
